@@ -1,0 +1,81 @@
+.header{
+    height: 65px;
+    width: 100%;
+    background-color: rgb(129, 172, 157);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  } 
+  .left-section{
+    display: flex;
+    align-items: center;
+  }
+  .logo{
+    height: 40px;
+    width: 50px;
+    margin-left: 20px;
+  }
+  .middle-section{
+    display: flex;
+    flex:1;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    justify-content:center;
+    gap: 50px;
+  }
+  .middle-section a{
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    color: rgb(10, 10, 10);
+    
+  }
+  .middle-section a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2.5px;
+    bottom: 0;
+    left: 0;
+    background-color: rgb(158, 6, 6);
+    transform-origin: bottom right;
+    transition: transform 0.32s ease-out;
+
+  }
+  .middle-section a:hover::after{
+    transform:scaleX(1);
+    transform-origin: bottom left;
+  }
+
+
+  .right-section{
+    display: flex;
+    margin-right: 20px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-shrink: 0;
+  }
+ 
+  .lsbutton{
+    padding: 5px 10px;
+    font-weight: 500;
+    font-size: 13px;
+    background-color: rgba(0, 136, 1,1);
+    color: #edf0f1;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  .lsbutton:hover{
+    background-color: rgba(5, 80, 150, 0.8);
+  }

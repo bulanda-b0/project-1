@@ -1,0 +1,194 @@
+/* propert or rent management section  */
+
+.property-management-section{
+
+    margin-top: 1px;
+    background-color: white;
+}
+
+.list-property-bar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 35px;
+    border-bottom-style: dashed;
+ 
+}
+
+.heading-list-property{
+    margin-top: 5px;
+    background-color: white;
+    margin-left: 120px;
+}
+.heading-list-property2{
+    margin-top: 5px;
+    background-color: white;
+    margin-left: 150px;
+
+}
+.hreftitle-of-list-property{
+    background-color: white;
+}
+.arrow-image{
+    height: 25px;
+    width: 25px;
+    display: inline;
+    margin-top: 3px;
+    
+}
+
+
+
+
+
+/* posted property details shown  */
+
+.booked-and-posted-list{
+    height: 40px;
+    background-color: black;
+}
+.booked-and-posted-list h3{
+    display: inline;
+
+}
+.booked-title{
+    font-size: 25px;
+    color: yellow;
+    background-color: black;
+    margin-left: 200px;
+}
+.posted-title{
+    font-size: 25px;
+    color: yellow;
+    background-color: black;
+    margin-left: 400px;
+    
+
+}
+
+
+
+
+
+.booked-property-list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 360px;
+    max-height: 100%;
+    overflow-y: auto;
+    
+}
+
+
+
+
+
+
+
+
+.posted-rooms-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: black;
+    grid-template-rows: 250px;
+    row-gap: 3px;
+    
+
+}
+.grid-item2{
+    padding: 15px;
+    border: 0.5px solid red;
+    background-color:  rgb(248, 181, 192);
+    color: purple;
+}
+.grid-item2 img{
+    height: 60px;
+    width: 60px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+.grid-item2 h2{
+    background-color:  rgb(248, 181, 192);
+
+}
+
+.grid-item2 h5{
+    background-color:  rgb(248, 181, 192);
+
+}
+.book-colour{
+    color: rgb(92, 91, 17);
+    font-style: italic;
+    font-weight: 600;
+    font-size: large;
+
+}
+.button1{
+    margin-left: 23px;
+    color: white;
+    background-color: rgb(228, 128, 13);
+    border-style: none;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 65px;
+ 
+}
+
+.button1:active{
+    transform: scale(0.9);
+}
+.button2{
+    margin-left: 10px;
+    margin-top: 8px;
+    color: white;
+    background-color: rgb(75, 59, 59);
+    border-style: none;
+    padding: 5px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button2:active{
+    transform: scale(0.9);
+}
+
+
+
+.booked-rooms-details{
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 200px;
+    
+
+    
+    
+}
+
+
+.grid-item{
+    padding: 10px;
+    border: 0.5px solid white;
+    background-color: black;
+    color: white;
+}
+.grid-item img{
+    height: 60px;
+    width: 60px;
+    margin-left: 130px;
+    border-radius: 10px;
+}
+.grid-item h2{
+    background-color: black;
+
+}
+.grid-item h5{
+    background-color: black;
+
+}
+
+
+
+
+
+

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.list-property-form{
+    width: 450px;
+    height: 500px;
+    background-image: linear-gradient(to bottom right, #FF512F, #DD2476);
+    margin-left: 430px;
+    margin-top: 40px;
+    border-radius: 20px;
+    z-index: 1;
+
+}
+.list-property-head{
+    width: 230px;
+    height: 30px;
+    margin-left: 105px;
+    padding-left: 5px;
+    padding-top: 20px;
+}
+.head-title{
+    padding-left: 1px;
+    padding-top: 10px;
+    background-image: linear-gradient(to bottom right, #FF512F, #DD2476);
+ 
+}
+.list-property-form form select{
+    width: 302px;
+    height: 30px;
+    margin-left: 78px;
+    margin-top: 30px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 5px 10px #ee8484;
+    text-indent: 10px;
+}
+.list-property-form form input{
+    width: 300px;
+    height: 30px;
+    margin-left: 78px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 5px 10px #ee8484;
+    text-indent: 10px;
+   
+}
+
+/* ::placeholder{
+    padding-left: 5px;
+} */
+.list-property-form form textarea{
+    margin-left: 78px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border-style: none;
+    box-shadow: 2px 5px 10px #ee8484;
+    text-indent: 10px;
+}
+
+option[value=""][disabled]{
+    display:none;
+  }
+
+.submit-btn{
+    padding: 10px;
+    display: block;
+    margin-top: 20px;
+    margin-left: 190px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: rgb(60, 241, 43);
+    cursor: pointer;
+}
+.submit-btn:active{
+    transform: scale(0.8);
+}
+.head-of-photo{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 0;
+
+}

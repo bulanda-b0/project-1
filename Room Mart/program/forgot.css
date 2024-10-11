@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(129, 241, 129);
+}
+.reset-pass{
+    height: 450px;
+    width: 600px;
+    margin-left: 30%;
+    margin-top: 10%;
+    background-color: black;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+.reset-pass h2{
+    color: rgb(240, 22, 22);
+    background-color: black;
+    margin-left: 27%;
+    margin-bottom: 4%;
+}
+.reset-pass h4{
+    color: white;
+    background-color: black;
+    margin-left: 27%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+
+}
+.form-1{
+    background-color: black;
+    padding: 5px;
+
+}
+.form-1 input{
+    width: 400px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-indent: 3px;
+}
+.form-1 button{
+    padding: 8px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 8px;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+.form-1 button:active{
+    transform: scale(1.2);
+}
+.form-2{
+    background-color: black;
+    padding: 5px;
+
+}
+.i1, .i2{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-indent: 3px;
+    margin-bottom: 15px;
+    margin-left: 20%;
+
+}
+ .form-2-otp{
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    text-indent: 3px;
+    margin-bottom: 15px;
+    margin-left: 20%;
+
+}
+.form-2 button{
+    display: block;
+    margin-left: 35%;
+    padding: 12px;
+    background-color: rgb(240, 105, 28);
+    color: white;
+    border-radius: 8px;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.form-2 button:active{
+    transform: scale(0.7);
+}
+.form-2 button:hover{
+    background-color: darkred;
+}

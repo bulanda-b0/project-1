@@ -1,0 +1,124 @@
+*{
+    background-color: deeppink;
+    margin: 0;
+    padding: 0;
+}
+
+.profile-sec{
+    width: 1100px;
+    /* height: 100%;  */
+    background-color: aliceblue;
+    margin-left: 130px;
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column;
+    border-radius: 30px;
+    
+}
+
+/* profile user display section  */
+
+.edit-info{
+    background-color: aquamarine;
+}
+.display-info{
+    background-color: aquamarine;
+}
+.user-info-section{
+    height: 300px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 300px;
+    border-bottom-style: dashed;
+    
+}
+.profile-pic{
+    background-color: aquamarine;
+    border-top-left-radius: 30px;
+}
+.default-pic{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-left: 27px;
+
+}
+.user-id-display{
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 180px;
+    background-color: aquamarine;
+
+}
+
+
+.heading-of-your-info{
+    
+    width: 250px;
+    margin-left: 170px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    background-color: aquamarine;
+}
+.information-part{
+    height: 210px;
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-style: dotted;
+    border-bottom-style: none;
+    border-width: 1px;
+    padding-top: 20px;
+    background-color: aquamarine;
+    
+}
+
+
+
+.edit-info-section{
+    background-color: aquamarine;
+    border-top-right-radius: 30px;
+}
+.logout-button{
+    cursor: pointer;
+    margin-left: 70px;
+    margin-top: 65px;
+    border-style: none;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: green;
+    color: rgb(252, 233, 233);
+}
+.logout-icon{
+    width: 25px;
+    height: 25px;
+}
+.edit-info{
+    margin-left: 50px;
+    margin-top: 40px;
+    padding: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: green;
+    color: rgb(252, 233, 233);
+}
+.edit-details{
+    background-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,527 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+  body{
+      margin: 0;
+      padding: 0;
+      padding-top: 65px;
+      height: 100%;
+      
+  }
+
+/* first page text and photo */
+  .first-page{
+    background-color: #1e2245;
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    align-items: center;
+    
+  }
+  .front-text-left{
+    display: flex;
+    color: aliceblue;
+    flex-direction: column;
+    width: 700px;
+    height: 350px;
+  }
+  .text1-box{
+    margin-top: 40px;
+  }
+  .text1{ 
+    font-family: Inter, sans-serif;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 0;
+    padding-left: 60px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .text2-box{
+    height: 150px;
+    width: 800px;
+    
+  }
+  .text2{
+    font-family: Vchoney, sans-serif;
+    padding-left: 60px;
+    margin-top: 5px;
+    font-size: 55px;
+    font-weight: 400;
+  }
+  .text3-box{
+    width: 600px;
+  }
+  .text3{
+    font-family: Inter, sans-serif;
+    display: flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 60px;
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  
+  .front-photo{
+    height: 320px;
+    width: 600px;
+    border-radius: 40px;
+  }
+
+
+/* 2nd section of home page  */
+      .home-2nd-part{
+        height: 250px;
+        background-color: #1e2245;
+        display: grid;
+        grid-template-columns:1fr 1fr;
+        grid-template-rows: 250px;
+      }
+      
+      .list-property-div{
+        height: 100px;
+        width: 300px;
+        margin-top: 75px;
+        margin-left: 250px;
+        background: url(photo/post.jpg) no-repeat center 100%/100% ;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+
+      }
+      .list-property-button{
+        margin-top: 27px;
+        margin-left: 50px;
+        width: 200px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(46, 36, 36);
+      }
+      .list-property-button-text{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+      .find-property-div{
+        background-color: #aeafc0;
+        height: 100px;
+        width: 300px;
+        margin-top: 75px;
+        margin-left: 150px;
+        background: url(photo/rent.jpg) no-repeat center 100%/100% ;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+      }
+      .find-property-button{
+        margin-top: 27px;
+        margin-left: 50px;
+        width: 200px;
+        border-radius: 10px;
+        cursor: pointer;
+        background-color: rgb(46, 36, 36);
+      }
+      .find-property-button-text{
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 15px;
+        font-weight: bold;
+      }
+
+
+
+
+
+/* home page data section */
+  .renting-data-grid{
+    background-color: #f1f1f7;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 250px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 250px;
+  }
+  .box1{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+  }
+  .logo-photo1{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    padding-left: 140px;
+    padding-top: 50px;
+  }
+  .text-under-logo1{
+    font-family: Inter, sans-serif;
+    font-size: 27px;
+    text-align: center;
+  }
+  .box2{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+  }
+  .box2-1{
+    height: 105px;
+  }
+ 
+  .logo-photo2{
+    font-size: 50px;
+    padding-left: 140px;
+    padding-top: -10px;
+  }
+  .text-under-logo2{
+    font-family: Inter, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 0;
+  }
+  .box3{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+  }
+  .box4{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+  }
+ 
+
+  
+/* home fourth section for services  */
+  .service-title{
+    height: 75px;
+    margin-bottom: 50px;
+  }
+  .service-heading-title-border{
+    width: 1200px;
+    margin-left: 80px;
+    margin-top: 0;
+    border-radius: 10px;
+    border: 1px;
+    border-style: dotted;
+    background-color: lightgoldenrodyellow;
+  }
+  .service-heading-title{
+    text-align: centre;
+    font-size: 36px;
+    padding-left: 5px;
+  }
+ 
+
+  .services-section{
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px;
+    column-gap: 20px;
+    margin-bottom: 50px;
+  }
+ 
+  .list-property{
+    margin-left: 20px;
+    border-radius: 30px;
+    background-color: #262626;
+  }
+  .list-property:hover{
+    background: #363232;
+    transform: translateY(-10px);
+    transition: 0.2s ease-out;
+  }
+  .list-property-heading{
+    color: rgb(255, 255, 255);
+    margin-left: 110px;
+    font-size: 25px;
+  }
+  .list-property-text{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Inter, sans-serif;
+  }
+  .btn-for-list{
+    margin-left: 180px;
+    cursor: pointer;
+    height: 40px;
+    background-color: #262626;
+    width: 50px;
+    border: 0;
+  }
+  .btn-list-text{
+    font-size: 30px;
+    color: yellow;
+  }
+  .rent-service-available{
+    height: 150px;
+    width: 300px;
+    margin-left: 58px;
+    margin-top: 30px;
+    border-radius: 5px;
+  }
+
+
+  .rent-property{
+    border-radius: 30px;
+    background-color: #262626;
+
+  }
+  .rent-property:hover{
+    background: #363232;
+    transform: translateY(-10px);
+    transition: 0.2s ease-out;
+  }
+  .collect-rent{
+    margin-right: 20px;
+    border-radius: 30px;
+    background-color: #262626;
+  }
+  .collect-rent:hover{
+    background: #363232;
+    transform: translateY(-10px);
+    transition: 0.2s ease-out;
+  }
+
+
+
+/* about section in 5th part  */
+.about-us-heading{
+  height: 60px;
+  margin-bottom: 20px;
+}
+.about-us-title{
+  width: 165px;
+  font-size: 40px;
+  margin-left: 600px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  line-height: 80%;
+  border-color: purple;
+  border-width: 5px;
+  padding-top: 0;
+  border-left-style: double;
+  border-bottom-style: dotted;
+  
+}
+.about-section{
+  height: 500px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 500px;
+  background-color: lightgoldenrodyellow;
+
+}
+
+.about-us-details{
+  border-right-style: dotted;
+  border-color: black;
+  border-width: 1px;
+}
+.heading-creative{
+  margin-left: 30px;
+  margin-top: 40px;
+}
+.about-us-para{
+  line-height: 25px;
+  width: 550px;
+  text-align:left;
+  margin-left: 30px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.project-link{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px;
+  width: 550px;
+  margin-left: 30px;
+}
+.web-photo{
+  height: 50px;
+  width: 50px;
+  margin-left: 60px;
+
+}
+.web-text{
+  margin-left: 40px;
+  width: 100px;
+  margin-bottom: 70px;
+}
+
+.our-team-heading{
+  margin-left: 300px;
+  width: 110px;
+  padding-left: 4px;
+  /* color: rgb(149, 88, 219); */
+  margin-bottom: 30px;
+  border-bottom-style: dashed;
+}
+.team-profile{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px;
+}
+
+.profile-1-pic{
+  height: 90px;
+  width: 90px;
+  margin-left: 60px;
+  border-radius: 50px;
+}
+.name{
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.work{
+  margin-left: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+
+/* contact us section  */
+.contact-us-heading{
+  height: 60px;
+  margin-bottom: 20px;
+}
+.contact-us-title{
+  width: 200px;
+  font-size: 40px;
+  margin-left: 550px;
+  padding-left: 10px;
+  padding-bottom: 7px;
+  line-height: 100%;
+  border-color: rgb(139, 219, 10);
+  border-width: 5px;
+  padding-top: 0;
+  border-left-style: solid;
+}
+.contact-us{
+  height: 400px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 400px;
+  margin-bottom: 0;
+}
+
+
+
+.contact-us-left{
+  background-color: #e2c416;
+}
+.contact-us-left
+  form input, form textarea{
+    width: 85%;
+    border: 0;
+    outline: none;
+    background: hsl(0, 13%, 25%);
+    padding: 15px;
+    margin: 3px;
+    margin-left: 50px;
+    margin-top: 10px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+  }
+
+  .contact-us-left form .btn{
+    padding: 14px 60px;
+    width: 100px;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-left: 335px;
+    cursor: pointer;
+    font-weight: 600;
+    background: #f00768;
+    color: #000;
+    padding: 10px;
+    line-height: 1.7em;
+    box-shadow: 0 2px 10px 0 #cac9c9;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    border-left: 20px solid #ff0077;
+    border-right: 20px solid #ff0077;
+    border-radius: 55px;
+    border-style: none;
+    transition: transform 0.2s;
+}
+.contact-us-left .btn:hover{
+  background-color: red;
+}
+.success-text{
+    margin-left: 350px;
+    margin-bottom: 50px;
+}
+
+
+.contact-us-right{
+  background-color: #e2c416;
+  border-left-style: dotted;
+  border-width: 1px;
+}
+.email-section{
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 30px;
+  margin-top: 50px;
+}
+.email-logo{
+  height: 40px;
+  width: 40px;
+  margin-left: 50px;
+}
+.email-id{
+  margin-left: 10px;
+  display: inline;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(80, 7, 80);
+}
+.social-media-heading{
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 30px;
+}
+.social-png{
+  height: 45px;
+  width:45px;
+  margin-left: 50px;
+}
+.social{
+  margin-left: 10px;
+  display: inline;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(80, 7, 80);
+}
+.media-icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 40px;
+  margin-top: 30px;
+  margin-left: 130px;
+}
+.fb-icon{
+  height: 40px;
+  width: 40px;
+}
+.fb-icon:hover{
+  transform: translateY(-4px);
+    transition: 0.5s ease-out;
+}
+
+/* last section  */
+.last-section{
+  height: 100px;
+  background-color:  #1e2245;
+  
+}
+.copyright-text{
+  margin-left: 500px;
+  padding-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+}
